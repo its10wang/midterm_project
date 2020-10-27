@@ -25,7 +25,7 @@ a{
 }
 
 .indexPage .navBox{
-  padding:50px 0;
+  padding:40px 0;
 }
 
 .indexPage .navBox #logo{
@@ -43,7 +43,8 @@ a{
 
 .indexPage .navBox ul li a{
   color:#333;
-  font-size: 20px;
+  font-size: 25px;
+  font-family:impact;
 }
 
 .indexPage .navBox ul li{
@@ -51,24 +52,26 @@ a{
 }
 
 .indexPage .navBox ul li a:hover{
-  font-size: 25px;
+  font-family: impact;
+  font-size: 35px;
+  color:navy;
 }
 
 /*nav*/
 
-.indexPage .bannerBox {  
-   width:100%;  
-   position:relative;  
-   overflow:hidden;  
-   height:700px;  
-}  
-.banner {  
+.indexPage .bannerBox {
+   width:100%;
+   position:relative;
+   overflow:hidden;
+   height:700px;
+}
+.banner {
     width:1600px;
-    position:absolute;  
+    position:absolute;
     left:50%;
     margin-top: 0;
     margin-left:-800px;
-}  
+}
 
 .indexPage .bannerBox h4{
   position: absolute;
@@ -78,6 +81,8 @@ a{
   left:50%;
   margin-left: -164px;
   font-weight: 400;
+  font-family: impact;
+
 }
 
 .indexPage .bannerBox h5{
@@ -183,12 +188,12 @@ a{
   color: #646464;
   font-weight: 100;
   font-size: 20px;
-  display: -webkit-box !important;  
-  overflow: hidden;  
-  text-overflow: ellipsis;  
-  word-break: break-all;  
-  -webkit-box-orient: vertical;  
-  -webkit-line-clamp: 3;  
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
   cursor: pointer;
   line-height: 35px;
 }
@@ -211,6 +216,7 @@ a{
   font-size: 20px;
   margin-bottom: 50px;
   font-weight: normal;
+  font-family: impact;
 }
 
 .album .desc{
